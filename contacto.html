@@ -36,20 +36,27 @@
         </div>
     </header>
     <main class="contenedor">
-      <h3 class="centrar-texto">
-        Nuestro Blog
-      </h3>
-      <div class="entrada">
-        <div class="entrada__imagen">
-            <img src="img/blog1.jpg" alt="Imagen del blog">
+        <h3 class="centrar-texto">
+            Contacto
+        </h3>
+        <div class="contacto-bg">
+
         </div>
-        <div class="entrada__texto">
-            <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam enim beatae dignissimos temporibus eveniet suscipit. Ex voluptate aspernatur iure molestias, pariatur quis, error, vitae illum sit unde nisi totam laboriosam.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis provident deleniti omnis, eum atque accusamus tempora. Est doloribus cum, maxime eos et repellendus minima assumenda dolore, aspernatur labore magnam quae?
-            </p>
-        </div>
-      </div>
+        <form class="formulario">
+            <div class="campo">
+                <label for="Nombre" class="campo__label">Nombre</label>
+                <input class="campo__field" type="text" placeholder="Tu Nombre" id="Nombre">
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="E-mail">E-mail</label>
+                <input class="campo__field" type="email" placeholder="Tu E-mail" id="E-mail">
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="Mensaje">Mensaje</label>
+                <textarea class="campo__field campo__field--textarea" id="Mensaje"></textarea>
+            </div>
+            <input class="campo__field boton boton--primario" type="submit" value="Enviar" >
+        </form>
     </main>
     <footer class="footer">
         <div class="contenedor">
